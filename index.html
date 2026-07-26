@@ -167,6 +167,30 @@
         </div>
       </section>
 
+      <section class="section" id="youtube-learning">
+        <div class="container">
+          <div class="section-heading">
+            <p class="eyebrow">Free YouTube Learning</p>
+            <h2>Watch free trading tutorials and grow your edge every week.</h2>
+          </div>
+          <div class="youtube-card">
+            <div class="youtube-card__visual" aria-hidden="true">
+              <div class="youtube-logo">
+                <span class="youtube-play"></span>
+              </div>
+            </div>
+            <div class="youtube-card__content">
+              <p>Explore practical trading lessons, market breakdowns, and beginner-friendly tutorials for free on YouTube.</p>
+              <label class="youtube-link-field" for="youtube-channel-link">
+                <span>Channel link</span>
+                <input id="youtube-channel-link" type="url" value="https://youtube.com/@915withshubham?si=LDzIa6UtOtSn2faD" placeholder="https://www.youtube.com/@yourchannel" />
+              </label>
+              <a class="btn btn-primary youtube-link-btn" id="youtube-channel-btn" href="https://youtube.com/@915withshubham?si=LDzIa6UtOtSn2faD" target="_blank" rel="noopener noreferrer">Visit YouTube Channel</a>
+            </div>
+          </div>
+        </div>
+      </section>
+
       <section class="section">
         <div class="container testimonial-wrap">
           <div class="section-heading">
@@ -275,6 +299,38 @@
         <a href="#home">Back to top</a>
       </div>
     </footer>
+
+    <div class="modal-overlay" id="enrollment-modal" aria-hidden="true">
+      <div class="modal-dialog" role="dialog" aria-modal="true" aria-labelledby="enrollment-modal-title">
+        <button class="modal-close" type="button" aria-label="Close enrollment form">×</button>
+        <div class="modal-header">
+          <p class="eyebrow">Enrollment</p>
+          <h3 id="enrollment-modal-title">Join FNDesk Today</h3>
+          <p>Reserve your spot in the next trading cohort with a quick enrollment form.</p>
+        </div>
+        <form id="enrollment-form" novalidate>
+          <div class="form-grid">
+            <label class="form-field">
+              <span>Full Name</span>
+              <input type="text" name="fullName" placeholder="Enter your full name" required />
+            </label>
+            <label class="form-field">
+              <span>Email Address</span>
+              <input type="email" name="email" placeholder="Enter your email" required />
+            </label>
+            <label class="form-field">
+              <span>Contact Number</span>
+              <input type="tel" name="contact" placeholder="Enter contact number" required />
+            </label>
+          </div>
+          <div class="form-actions">
+            <button type="submit" class="btn btn-primary">Submit Enrollment</button>
+            <button type="button" class="btn btn-secondary modal-cancel">Cancel</button>
+          </div>
+          <p class="form-message" role="status" aria-live="polite"></p>
+        </form>
+      </div>
+    </div>
 
     <a class="floating-whatsapp" href="https://wa.me/917317569963" target="_blank" rel="noopener noreferrer" aria-label="Chat on WhatsApp">
       <svg width="24" height="24" viewBox="0 0 448 512" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
